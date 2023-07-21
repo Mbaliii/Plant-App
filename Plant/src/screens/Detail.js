@@ -5,16 +5,11 @@ import { TouchableOpacity } from 'react-native-gesture-handler'
 
 const Detail = ({ navigation }) => {
     return (
-        <View style={{
-            flex: 1,
-            backgroundColor: "#FFF",
-
-        }}>
-            <View style={{
-                flexDirection: "row",
-                width: "100%",
-                height: "90%"
-            }}>
+        <View style={{ flex: 1, backgroundColor: "#FFF", }}>
+            
+            <View style={{ flexDirection: "row", width: "100%", height: "90%" }}>
+                
+            
                 <View style={{ width: "10%", paddingLeft: 20 }}>
                     <TouchableOpacity onPress={() => navigation.goBack()}>
                         <Image
